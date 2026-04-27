@@ -1,0 +1,937 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		321E98492F9E812A00F53785 /* fair-use-help-ru.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 321E98442F9E812900F53785 /* fair-use-help-ru.rtf */; };
+		321E984A2F9E812A00F53785 /* general-ru.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 321E98452F9E812900F53785 /* general-ru.rtf */; };
+		321E984B2F9E812A00F53785 /* risk-help-ru.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 321E98462F9E812900F53785 /* risk-help-ru.rtf */; };
+		321E984C2F9E812A00F53785 /* license-help-ru.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 321E98472F9E812900F53785 /* license-help-ru.rtf */; };
+		321E984D2F9E812A00F53785 /* copyright-help-ru.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 321E98482F9E812900F53785 /* copyright-help-ru.rtf */; };
+		324CCE512F98286F008187CD /* LicenseTypeDetermination.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 324CCE4F2F98286F008187CD /* LicenseTypeDetermination.cpp */; };
+		3287D71A2F636DB9003B682E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3287D7192F636DB9003B682E /* AppDelegate.m */; };
+		3287D71F2F636DD5003B682E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3287D71E2F636DD5003B682E /* Assets.xcassets */; };
+		3287D7222F636DD5003B682E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3287D7202F636DD5003B682E /* Main.storyboard */; };
+		3287D7252F636DD5003B682E /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3287D7242F636DD5003B682E /* main.mm */; };
+		3287D7302F636DD5003B682E /* project_FrankfurterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3287D72F2F636DD5003B682E /* project_FrankfurterTests.m */; };
+		3287D73B2F636DD5003B682E /* project_FrankfurterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3287D73A2F636DD5003B682E /* project_FrankfurterUITests.m */; };
+		3287D74C2F6371EE003B682E /* MainWindowController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3287D74B2F6371EE003B682E /* MainWindowController.mm */; };
+		3287D7542F637292003B682E /* CopyrightTabController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3287D7532F637292003B682E /* CopyrightTabController.mm */; };
+		3287D75A2F6372CE003B682E /* LicenseTabController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3287D7592F6372CE003B682E /* LicenseTabController.mm */; };
+		3287D75D2F6372EC003B682E /* RiskReportTabController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3287D75C2F6372EC003B682E /* RiskReportTabController.mm */; };
+		3287D7602F63730A003B682E /* SongResultView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3287D75F2F63730A003B682E /* SongResultView.mm */; };
+		3287D7722F6376EA003B682E /* license_rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 3287D7702F6376EA003B682E /* license_rules.json */; };
+		3287D7732F6376EA003B682E /* fair_use_rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 3287D7712F6376EA003B682E /* fair_use_rules.json */; };
+		3287D7752F6376F7003B682E /* tracks_cache.json in Resources */ = {isa = PBXBuildFile; fileRef = 3287D7742F6376F7003B682E /* tracks_cache.json */; };
+		3287D7802F637888003B682E /* RiskEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3287D77E2F637888003B682E /* RiskEngine.cpp */; };
+		3287D7832F63789D003B682E /* LicenseAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3287D7812F63789D003B682E /* LicenseAnalyzer.cpp */; };
+		3287D7862F6378B0003B682E /* FairUseEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3287D7842F6378B0003B682E /* FairUseEngine.cpp */; };
+		3287D7892F6378C2003B682E /* NetworkManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3287D7872F6378C2003B682E /* NetworkManager.cpp */; };
+		3287D78C2F6378D3003B682E /* CacheManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3287D78A2F6378D3003B682E /* CacheManager.cpp */; };
+		3287D78F2F6378E1003B682E /* SearchEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3287D78D2F6378E1003B682E /* SearchEngine.cpp */; };
+		3287D7922F6378EE003B682E /* WagnerFischer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3287D7902F6378EE003B682E /* WagnerFischer.cpp */; };
+		329F18132F6DDECA00CA8C8D /* JSONLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 329F18112F6DDECA00CA8C8D /* JSONLoader.cpp */; };
+		329F18162F6DDEEC00CA8C8D /* Track.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 329F18142F6DDEEC00CA8C8D /* Track.cpp */; };
+		329F18192F6DDF0D00CA8C8D /* LicenseInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 329F18172F6DDF0D00CA8C8D /* LicenseInfo.cpp */; };
+		329F181C2F6DDF1A00CA8C8D /* FairUseResult.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 329F181A2F6DDF1A00CA8C8D /* FairUseResult.cpp */; };
+		32BCA8A12F983999005B4233 /* FairUseTabController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 32BCA8A02F983999005B4233 /* FairUseTabController.mm */; };
+		32CAB58A2F9E835E00379C67 /* fair-use-help.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 32CAB5852F9E835E00379C67 /* fair-use-help.rtf */; };
+		32CAB58C2F9E835E00379C67 /* copyright-help.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 32CAB5872F9E835E00379C67 /* copyright-help.rtf */; };
+		32CAB58D2F9E835E00379C67 /* risk-help.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 32CAB5882F9E835E00379C67 /* risk-help.rtf */; };
+		32CAB58E2F9E835E00379C67 /* license-help.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 32CAB5892F9E835E00379C67 /* license-help.rtf */; };
+		32CAB5902F9E83C000379C67 /* general.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 32CAB58F2F9E83C000379C67 /* general.rtf */; };
+		32CC45042F9AF52000C3A319 /* Frankfurter.help in Resources */ = {isa = PBXBuildFile; fileRef = 32CC45032F9AF51F00C3A319 /* Frankfurter.help */; };
+		32CCB20B2F68BCD700BF558A /* MainBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3287D7502F63725B003B682E /* MainBridge.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3287D72C2F636DD5003B682E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3287D70D2F636DB9003B682E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3287D7142F636DB9003B682E;
+			remoteInfo = project_Frankfurter;
+		};
+		3287D7372F636DD5003B682E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3287D70D2F636DB9003B682E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3287D7142F636DB9003B682E;
+			remoteInfo = project_Frankfurter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		321E98422F9E771D00F53785 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		321E98442F9E812900F53785 /* fair-use-help-ru.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "fair-use-help-ru.rtf"; sourceTree = "<group>"; };
+		321E98452F9E812900F53785 /* general-ru.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "general-ru.rtf"; sourceTree = "<group>"; };
+		321E98462F9E812900F53785 /* risk-help-ru.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "risk-help-ru.rtf"; sourceTree = "<group>"; };
+		321E98472F9E812900F53785 /* license-help-ru.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "license-help-ru.rtf"; sourceTree = "<group>"; };
+		321E98482F9E812900F53785 /* copyright-help-ru.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "copyright-help-ru.rtf"; sourceTree = "<group>"; };
+		324CCE422F981246008187CD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		324CCE4F2F98286F008187CD /* LicenseTypeDetermination.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LicenseTypeDetermination.cpp; sourceTree = "<group>"; };
+		324CCE502F98286F008187CD /* LicenseTypeDetermination.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LicenseTypeDetermination.hpp; sourceTree = "<group>"; };
+		326423062F92C06300418CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		327661E02F92A94F00A65209 /* jsonloader(legacy).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "jsonloader(legacy).cpp"; sourceTree = "<group>"; };
+		3287D7152F636DB9003B682E /* project_Frankfurter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project_Frankfurter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3287D7182F636DB9003B682E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3287D7192F636DB9003B682E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3287D71E2F636DD5003B682E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3287D7232F636DD5003B682E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3287D7242F636DD5003B682E /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		3287D7262F636DD5003B682E /* project_Frankfurter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = project_Frankfurter.entitlements; sourceTree = "<group>"; };
+		3287D72B2F636DD5003B682E /* project_FrankfurterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = project_FrankfurterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3287D72F2F636DD5003B682E /* project_FrankfurterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = project_FrankfurterTests.m; sourceTree = "<group>"; };
+		3287D7312F636DD5003B682E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3287D7362F636DD5003B682E /* project_FrankfurterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = project_FrankfurterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3287D73A2F636DD5003B682E /* project_FrankfurterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = project_FrankfurterUITests.m; sourceTree = "<group>"; };
+		3287D73C2F636DD5003B682E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3287D74B2F6371EE003B682E /* MainWindowController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MainWindowController.mm; sourceTree = "<group>"; };
+		3287D74D2F637203003B682E /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		3287D7502F63725B003B682E /* MainBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MainBridge.mm; sourceTree = "<group>"; };
+		3287D7522F63726A003B682E /* MainBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainBridge.h; sourceTree = "<group>"; };
+		3287D7532F637292003B682E /* CopyrightTabController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CopyrightTabController.mm; sourceTree = "<group>"; };
+		3287D7552F63729C003B682E /* CopyrightTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyrightTabController.h; sourceTree = "<group>"; };
+		3287D7592F6372CE003B682E /* LicenseTabController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LicenseTabController.mm; sourceTree = "<group>"; };
+		3287D75B2F6372D8003B682E /* LicenseTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LicenseTabController.h; sourceTree = "<group>"; };
+		3287D75C2F6372EC003B682E /* RiskReportTabController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RiskReportTabController.mm; sourceTree = "<group>"; };
+		3287D75E2F6372F3003B682E /* RiskReportTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RiskReportTabController.h; sourceTree = "<group>"; };
+		3287D75F2F63730A003B682E /* SongResultView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SongResultView.mm; sourceTree = "<group>"; };
+		3287D7612F63730F003B682E /* SongResultView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SongResultView.h; sourceTree = "<group>"; };
+		3287D7702F6376EA003B682E /* license_rules.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = license_rules.json; sourceTree = "<group>"; };
+		3287D7712F6376EA003B682E /* fair_use_rules.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fair_use_rules.json; sourceTree = "<group>"; };
+		3287D7742F6376F7003B682E /* tracks_cache.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tracks_cache.json; sourceTree = "<group>"; };
+		3287D77E2F637888003B682E /* RiskEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RiskEngine.cpp; sourceTree = "<group>"; };
+		3287D77F2F637888003B682E /* RiskEngine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RiskEngine.hpp; sourceTree = "<group>"; };
+		3287D7812F63789D003B682E /* LicenseAnalyzer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LicenseAnalyzer.cpp; sourceTree = "<group>"; };
+		3287D7822F63789D003B682E /* LicenseAnalyzer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LicenseAnalyzer.hpp; sourceTree = "<group>"; };
+		3287D7842F6378B0003B682E /* FairUseEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FairUseEngine.cpp; sourceTree = "<group>"; };
+		3287D7852F6378B0003B682E /* FairUseEngine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FairUseEngine.hpp; sourceTree = "<group>"; };
+		3287D7872F6378C2003B682E /* NetworkManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkManager.cpp; sourceTree = "<group>"; };
+		3287D7882F6378C2003B682E /* NetworkManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NetworkManager.hpp; sourceTree = "<group>"; };
+		3287D78A2F6378D3003B682E /* CacheManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CacheManager.cpp; sourceTree = "<group>"; };
+		3287D78B2F6378D3003B682E /* CacheManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CacheManager.hpp; sourceTree = "<group>"; };
+		3287D78D2F6378E1003B682E /* SearchEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SearchEngine.cpp; sourceTree = "<group>"; };
+		3287D78E2F6378E1003B682E /* SearchEngine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SearchEngine.hpp; sourceTree = "<group>"; };
+		3287D7902F6378EE003B682E /* WagnerFischer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WagnerFischer.cpp; sourceTree = "<group>"; };
+		3287D7912F6378EE003B682E /* WagnerFischer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WagnerFischer.hpp; sourceTree = "<group>"; };
+		329F18112F6DDECA00CA8C8D /* JSONLoader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JSONLoader.cpp; sourceTree = "<group>"; };
+		329F18122F6DDECA00CA8C8D /* JSONLoader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = JSONLoader.hpp; sourceTree = "<group>"; };
+		329F18142F6DDEEC00CA8C8D /* Track.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Track.cpp; sourceTree = "<group>"; };
+		329F18152F6DDEEC00CA8C8D /* Track.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Track.hpp; sourceTree = "<group>"; };
+		329F18172F6DDF0D00CA8C8D /* LicenseInfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LicenseInfo.cpp; sourceTree = "<group>"; };
+		329F18182F6DDF0D00CA8C8D /* LicenseInfo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LicenseInfo.hpp; sourceTree = "<group>"; };
+		329F181A2F6DDF1A00CA8C8D /* FairUseResult.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FairUseResult.cpp; sourceTree = "<group>"; };
+		329F181B2F6DDF1A00CA8C8D /* FairUseResult.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FairUseResult.hpp; sourceTree = "<group>"; };
+		32BCA89F2F9838EA005B4233 /* FairUseTabConstoller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FairUseTabConstoller.h; sourceTree = "<group>"; };
+		32BCA8A02F983999005B4233 /* FairUseTabController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FairUseTabController.mm; sourceTree = "<group>"; };
+		32CAB5852F9E835E00379C67 /* fair-use-help.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "fair-use-help.rtf"; sourceTree = "<group>"; };
+		32CAB5872F9E835E00379C67 /* copyright-help.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "copyright-help.rtf"; sourceTree = "<group>"; };
+		32CAB5882F9E835E00379C67 /* risk-help.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "risk-help.rtf"; sourceTree = "<group>"; };
+		32CAB5892F9E835E00379C67 /* license-help.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "license-help.rtf"; sourceTree = "<group>"; };
+		32CAB58F2F9E83C000379C67 /* general.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = general.rtf; sourceTree = "<group>"; };
+		32CC45032F9AF51F00C3A319 /* Frankfurter.help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Frankfurter.help; sourceTree = "<group>"; };
+		32EB4BDB2F890BA700B26556 /* json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json.hpp; sourceTree = "<group>"; };
+		32EB4BDC2F890BA700B26556 /* json_fwd.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json_fwd.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3287D7122F636DB9003B682E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3287D7282F636DD5003B682E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3287D7332F636DD5003B682E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		321E98432F9E812900F53785 /* ru */ = {
+			isa = PBXGroup;
+			children = (
+				321E98442F9E812900F53785 /* fair-use-help-ru.rtf */,
+				321E98452F9E812900F53785 /* general-ru.rtf */,
+				321E98462F9E812900F53785 /* risk-help-ru.rtf */,
+				321E98472F9E812900F53785 /* license-help-ru.rtf */,
+				321E98482F9E812900F53785 /* copyright-help-ru.rtf */,
+			);
+			path = ru;
+			sourceTree = "<group>";
+		};
+		321E98562F9E82C100F53785 /* en */ = {
+			isa = PBXGroup;
+			children = (
+				32CAB5872F9E835E00379C67 /* copyright-help.rtf */,
+				32CAB5852F9E835E00379C67 /* fair-use-help.rtf */,
+				32CAB5892F9E835E00379C67 /* license-help.rtf */,
+				32CAB58F2F9E83C000379C67 /* general.rtf */,
+				32CAB5882F9E835E00379C67 /* risk-help.rtf */,
+			);
+			path = en;
+			sourceTree = "<group>";
+		};
+		324CCE412F981246008187CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				324CCE422F981246008187CD /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		324CCE452F982018008187CD /* help-docs */ = {
+			isa = PBXGroup;
+			children = (
+				321E98562F9E82C100F53785 /* en */,
+				321E98432F9E812900F53785 /* ru */,
+			);
+			path = "help-docs";
+			sourceTree = "<group>";
+		};
+		3287D70C2F636DB9003B682E = {
+			isa = PBXGroup;
+			children = (
+				32CC45032F9AF51F00C3A319 /* Frankfurter.help */,
+				3287D7172F636DB9003B682E /* project_Frankfurter */,
+				3287D7162F636DB9003B682E /* Products */,
+				3287D72E2F636DD5003B682E /* project_FrankfurterTests */,
+				3287D7392F636DD5003B682E /* project_FrankfurterUITests */,
+				324CCE412F981246008187CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3287D7162F636DB9003B682E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3287D7152F636DB9003B682E /* project_Frankfurter.app */,
+				3287D72B2F636DD5003B682E /* project_FrankfurterTests.xctest */,
+				3287D7362F636DD5003B682E /* project_FrankfurterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3287D7172F636DB9003B682E /* project_Frankfurter */ = {
+			isa = PBXGroup;
+			children = (
+				3287D76D2F6375E6003B682E /* data */,
+				3287D76A2F637468003B682E /* resources */,
+				3287D7482F63711C003B682E /* sources */,
+				3287D7232F636DD5003B682E /* Info.plist */,
+				3287D7242F636DD5003B682E /* main.mm */,
+				3287D7262F636DD5003B682E /* project_Frankfurter.entitlements */,
+			);
+			path = project_Frankfurter;
+			sourceTree = "<group>";
+		};
+		3287D72E2F636DD5003B682E /* project_FrankfurterTests */ = {
+			isa = PBXGroup;
+			children = (
+				3287D72F2F636DD5003B682E /* project_FrankfurterTests.m */,
+				3287D7312F636DD5003B682E /* Info.plist */,
+			);
+			path = project_FrankfurterTests;
+			sourceTree = "<group>";
+		};
+		3287D7392F636DD5003B682E /* project_FrankfurterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3287D73A2F636DD5003B682E /* project_FrankfurterUITests.m */,
+				3287D73C2F636DD5003B682E /* Info.plist */,
+			);
+			path = project_FrankfurterUITests;
+			sourceTree = "<group>";
+		};
+		3287D7482F63711C003B682E /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				3287D7692F637450003B682E /* utils */,
+				3287D7682F637449003B682E /* models */,
+				3287D7622F637406003B682E /* core */,
+				3287D74F2F63722E003B682E /* bridge */,
+				3287D7492F637134003B682E /* ui */,
+			);
+			path = sources;
+			sourceTree = "<group>";
+		};
+		3287D7492F637134003B682E /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				3287D74E2F637221003B682E /* views */,
+				3287D74A2F6371B7003B682E /* tabs */,
+				3287D7182F636DB9003B682E /* AppDelegate.h */,
+				3287D7192F636DB9003B682E /* AppDelegate.m */,
+				3287D74B2F6371EE003B682E /* MainWindowController.mm */,
+				3287D74D2F637203003B682E /* MainWindowController.h */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		3287D74A2F6371B7003B682E /* tabs */ = {
+			isa = PBXGroup;
+			children = (
+				3287D7552F63729C003B682E /* CopyrightTabController.h */,
+				3287D7532F637292003B682E /* CopyrightTabController.mm */,
+				3287D75B2F6372D8003B682E /* LicenseTabController.h */,
+				3287D7592F6372CE003B682E /* LicenseTabController.mm */,
+				3287D75E2F6372F3003B682E /* RiskReportTabController.h */,
+				3287D75C2F6372EC003B682E /* RiskReportTabController.mm */,
+				32BCA89F2F9838EA005B4233 /* FairUseTabConstoller.h */,
+				32BCA8A02F983999005B4233 /* FairUseTabController.mm */,
+			);
+			path = tabs;
+			sourceTree = "<group>";
+		};
+		3287D74E2F637221003B682E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				3287D75F2F63730A003B682E /* SongResultView.mm */,
+				3287D7612F63730F003B682E /* SongResultView.h */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		3287D74F2F63722E003B682E /* bridge */ = {
+			isa = PBXGroup;
+			children = (
+				3287D7502F63725B003B682E /* MainBridge.mm */,
+				3287D7522F63726A003B682E /* MainBridge.h */,
+			);
+			path = bridge;
+			sourceTree = "<group>";
+		};
+		3287D7622F637406003B682E /* core */ = {
+			isa = PBXGroup;
+			children = (
+				3287D7672F637434003B682E /* risk */,
+				3287D7662F63742D003B682E /* legal */,
+				3287D7652F63741A003B682E /* network */,
+				3287D7642F637415003B682E /* cache */,
+				3287D7632F63740F003B682E /* search */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		3287D7632F63740F003B682E /* search */ = {
+			isa = PBXGroup;
+			children = (
+				3287D78D2F6378E1003B682E /* SearchEngine.cpp */,
+				3287D78E2F6378E1003B682E /* SearchEngine.hpp */,
+				3287D7902F6378EE003B682E /* WagnerFischer.cpp */,
+				3287D7912F6378EE003B682E /* WagnerFischer.hpp */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
+		3287D7642F637415003B682E /* cache */ = {
+			isa = PBXGroup;
+			children = (
+				3287D78A2F6378D3003B682E /* CacheManager.cpp */,
+				3287D78B2F6378D3003B682E /* CacheManager.hpp */,
+			);
+			path = cache;
+			sourceTree = "<group>";
+		};
+		3287D7652F63741A003B682E /* network */ = {
+			isa = PBXGroup;
+			children = (
+				3287D7872F6378C2003B682E /* NetworkManager.cpp */,
+				3287D7882F6378C2003B682E /* NetworkManager.hpp */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		3287D7662F63742D003B682E /* legal */ = {
+			isa = PBXGroup;
+			children = (
+				3287D7812F63789D003B682E /* LicenseAnalyzer.cpp */,
+				3287D7822F63789D003B682E /* LicenseAnalyzer.hpp */,
+				3287D7842F6378B0003B682E /* FairUseEngine.cpp */,
+				3287D7852F6378B0003B682E /* FairUseEngine.hpp */,
+			);
+			path = legal;
+			sourceTree = "<group>";
+		};
+		3287D7672F637434003B682E /* risk */ = {
+			isa = PBXGroup;
+			children = (
+				3287D77E2F637888003B682E /* RiskEngine.cpp */,
+				3287D77F2F637888003B682E /* RiskEngine.hpp */,
+			);
+			path = risk;
+			sourceTree = "<group>";
+		};
+		3287D7682F637449003B682E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				329F18142F6DDEEC00CA8C8D /* Track.cpp */,
+				329F18152F6DDEEC00CA8C8D /* Track.hpp */,
+				329F18172F6DDF0D00CA8C8D /* LicenseInfo.cpp */,
+				329F18182F6DDF0D00CA8C8D /* LicenseInfo.hpp */,
+				329F181A2F6DDF1A00CA8C8D /* FairUseResult.cpp */,
+				329F181B2F6DDF1A00CA8C8D /* FairUseResult.hpp */,
+				324CCE4F2F98286F008187CD /* LicenseTypeDetermination.cpp */,
+				324CCE502F98286F008187CD /* LicenseTypeDetermination.hpp */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		3287D7692F637450003B682E /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				32EB4BDA2F890BA700B26556 /* nlohmann */,
+				329F18112F6DDECA00CA8C8D /* JSONLoader.cpp */,
+				329F18122F6DDECA00CA8C8D /* JSONLoader.hpp */,
+				327661E02F92A94F00A65209 /* jsonloader(legacy).cpp */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		3287D76A2F637468003B682E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				324CCE452F982018008187CD /* help-docs */,
+				3287D7202F636DD5003B682E /* Main.storyboard */,
+				3287D76C2F6374C9003B682E /* icons */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		3287D76C2F6374C9003B682E /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				3287D71E2F636DD5003B682E /* Assets.xcassets */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		3287D76D2F6375E6003B682E /* data */ = {
+			isa = PBXGroup;
+			children = (
+				3287D76F2F6375FB003B682E /* rules */,
+				3287D76E2F6375EE003B682E /* cache */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		3287D76E2F6375EE003B682E /* cache */ = {
+			isa = PBXGroup;
+			children = (
+				3287D7742F6376F7003B682E /* tracks_cache.json */,
+			);
+			path = cache;
+			sourceTree = "<group>";
+		};
+		3287D76F2F6375FB003B682E /* rules */ = {
+			isa = PBXGroup;
+			children = (
+				3287D7712F6376EA003B682E /* fair_use_rules.json */,
+				3287D7702F6376EA003B682E /* license_rules.json */,
+			);
+			path = rules;
+			sourceTree = "<group>";
+		};
+		32EB4BDA2F890BA700B26556 /* nlohmann */ = {
+			isa = PBXGroup;
+			children = (
+				32EB4BDB2F890BA700B26556 /* json.hpp */,
+				32EB4BDC2F890BA700B26556 /* json_fwd.hpp */,
+			);
+			path = nlohmann;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3287D7142F636DB9003B682E /* project_Frankfurter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3287D73F2F636DD5003B682E /* Build configuration list for PBXNativeTarget "project_Frankfurter" */;
+			buildPhases = (
+				3287D7112F636DB9003B682E /* Sources */,
+				3287D7122F636DB9003B682E /* Frameworks */,
+				3287D7132F636DB9003B682E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = project_Frankfurter;
+			productName = project_Frankfurter;
+			productReference = 3287D7152F636DB9003B682E /* project_Frankfurter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3287D72A2F636DD5003B682E /* project_FrankfurterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3287D7422F636DD5003B682E /* Build configuration list for PBXNativeTarget "project_FrankfurterTests" */;
+			buildPhases = (
+				3287D7272F636DD5003B682E /* Sources */,
+				3287D7282F636DD5003B682E /* Frameworks */,
+				3287D7292F636DD5003B682E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3287D72D2F636DD5003B682E /* PBXTargetDependency */,
+			);
+			name = project_FrankfurterTests;
+			productName = project_FrankfurterTests;
+			productReference = 3287D72B2F636DD5003B682E /* project_FrankfurterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3287D7352F636DD5003B682E /* project_FrankfurterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3287D7452F636DD5003B682E /* Build configuration list for PBXNativeTarget "project_FrankfurterUITests" */;
+			buildPhases = (
+				3287D7322F636DD5003B682E /* Sources */,
+				3287D7332F636DD5003B682E /* Frameworks */,
+				3287D7342F636DD5003B682E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3287D7382F636DD5003B682E /* PBXTargetDependency */,
+			);
+			name = project_FrankfurterUITests;
+			productName = project_FrankfurterUITests;
+			productReference = 3287D7362F636DD5003B682E /* project_FrankfurterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3287D70D2F636DB9003B682E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = on_eveth;
+				TargetAttributes = {
+					3287D7142F636DB9003B682E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3287D72A2F636DD5003B682E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3287D7142F636DB9003B682E;
+					};
+					3287D7352F636DD5003B682E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3287D7142F636DB9003B682E;
+					};
+				};
+			};
+			buildConfigurationList = 3287D7102F636DB9003B682E /* Build configuration list for PBXProject "project_Frankfurter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 3287D70C2F636DB9003B682E;
+			productRefGroup = 3287D7162F636DB9003B682E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3287D7142F636DB9003B682E /* project_Frankfurter */,
+				3287D72A2F636DD5003B682E /* project_FrankfurterTests */,
+				3287D7352F636DD5003B682E /* project_FrankfurterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3287D7132F636DB9003B682E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CC45042F9AF52000C3A319 /* Frankfurter.help in Resources */,
+				3287D7752F6376F7003B682E /* tracks_cache.json in Resources */,
+				321E984D2F9E812A00F53785 /* copyright-help-ru.rtf in Resources */,
+				32CAB5902F9E83C000379C67 /* general.rtf in Resources */,
+				321E98492F9E812A00F53785 /* fair-use-help-ru.rtf in Resources */,
+				321E984C2F9E812A00F53785 /* license-help-ru.rtf in Resources */,
+				32CAB58E2F9E835E00379C67 /* license-help.rtf in Resources */,
+				32CAB58D2F9E835E00379C67 /* risk-help.rtf in Resources */,
+				3287D71F2F636DD5003B682E /* Assets.xcassets in Resources */,
+				32CAB58C2F9E835E00379C67 /* copyright-help.rtf in Resources */,
+				321E984B2F9E812A00F53785 /* risk-help-ru.rtf in Resources */,
+				3287D7722F6376EA003B682E /* license_rules.json in Resources */,
+				32CAB58A2F9E835E00379C67 /* fair-use-help.rtf in Resources */,
+				321E984A2F9E812A00F53785 /* general-ru.rtf in Resources */,
+				3287D7222F636DD5003B682E /* Main.storyboard in Resources */,
+				3287D7732F6376EA003B682E /* fair_use_rules.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3287D7292F636DD5003B682E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3287D7342F636DD5003B682E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3287D7112F636DB9003B682E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3287D78F2F6378E1003B682E /* SearchEngine.cpp in Sources */,
+				32BCA8A12F983999005B4233 /* FairUseTabController.mm in Sources */,
+				3287D7802F637888003B682E /* RiskEngine.cpp in Sources */,
+				3287D7862F6378B0003B682E /* FairUseEngine.cpp in Sources */,
+				324CCE512F98286F008187CD /* LicenseTypeDetermination.cpp in Sources */,
+				3287D7542F637292003B682E /* CopyrightTabController.mm in Sources */,
+				3287D7832F63789D003B682E /* LicenseAnalyzer.cpp in Sources */,
+				3287D7252F636DD5003B682E /* main.mm in Sources */,
+				32CCB20B2F68BCD700BF558A /* MainBridge.mm in Sources */,
+				3287D7892F6378C2003B682E /* NetworkManager.cpp in Sources */,
+				3287D78C2F6378D3003B682E /* CacheManager.cpp in Sources */,
+				3287D7922F6378EE003B682E /* WagnerFischer.cpp in Sources */,
+				3287D74C2F6371EE003B682E /* MainWindowController.mm in Sources */,
+				3287D7602F63730A003B682E /* SongResultView.mm in Sources */,
+				329F18132F6DDECA00CA8C8D /* JSONLoader.cpp in Sources */,
+				3287D75D2F6372EC003B682E /* RiskReportTabController.mm in Sources */,
+				329F18192F6DDF0D00CA8C8D /* LicenseInfo.cpp in Sources */,
+				329F181C2F6DDF1A00CA8C8D /* FairUseResult.cpp in Sources */,
+				329F18162F6DDEEC00CA8C8D /* Track.cpp in Sources */,
+				3287D71A2F636DB9003B682E /* AppDelegate.m in Sources */,
+				3287D75A2F6372CE003B682E /* LicenseTabController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3287D7272F636DD5003B682E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3287D7302F636DD5003B682E /* project_FrankfurterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3287D7322F636DD5003B682E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3287D73B2F636DD5003B682E /* project_FrankfurterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3287D72D2F636DD5003B682E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3287D7142F636DB9003B682E /* project_Frankfurter */;
+			targetProxy = 3287D72C2F636DD5003B682E /* PBXContainerItemProxy */;
+		};
+		3287D7382F636DD5003B682E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3287D7142F636DB9003B682E /* project_Frankfurter */;
+			targetProxy = 3287D7372F636DD5003B682E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3287D7202F636DD5003B682E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				326423062F92C06300418CBF /* Base */,
+				321E98422F9E771D00F53785 /* ru */,
+			);
+			name = Main.storyboard;
+			path = project_Frankfurter/resources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3287D73D2F636DD5003B682E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3287D73E2F636DD5003B682E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3287D7402F636DD5003B682E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_ENTITLEMENTS = project_Frankfurter/project_Frankfurter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = project_Frankfurter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "endme.project-Frankfurter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3287D7412F636DD5003B682E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_ENTITLEMENTS = project_Frankfurter/project_Frankfurter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = project_Frankfurter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "endme.project-Frankfurter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3287D7432F636DD5003B682E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = project_FrankfurterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "endme.project-FrankfurterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project_Frankfurter.app/Contents/MacOS/project_Frankfurter";
+			};
+			name = Debug;
+		};
+		3287D7442F636DD5003B682E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = project_FrankfurterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "endme.project-FrankfurterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project_Frankfurter.app/Contents/MacOS/project_Frankfurter";
+			};
+			name = Release;
+		};
+		3287D7462F636DD5003B682E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = project_FrankfurterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "endme.project-FrankfurterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = project_Frankfurter;
+			};
+			name = Debug;
+		};
+		3287D7472F636DD5003B682E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = project_FrankfurterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "endme.project-FrankfurterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = project_Frankfurter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3287D7102F636DB9003B682E /* Build configuration list for PBXProject "project_Frankfurter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3287D73D2F636DD5003B682E /* Debug */,
+				3287D73E2F636DD5003B682E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3287D73F2F636DD5003B682E /* Build configuration list for PBXNativeTarget "project_Frankfurter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3287D7402F636DD5003B682E /* Debug */,
+				3287D7412F636DD5003B682E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3287D7422F636DD5003B682E /* Build configuration list for PBXNativeTarget "project_FrankfurterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3287D7432F636DD5003B682E /* Debug */,
+				3287D7442F636DD5003B682E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3287D7452F636DD5003B682E /* Build configuration list for PBXNativeTarget "project_FrankfurterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3287D7462F636DD5003B682E /* Debug */,
+				3287D7472F636DD5003B682E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3287D70D2F636DB9003B682E /* Project object */;
+}
