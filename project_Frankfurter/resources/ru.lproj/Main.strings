@@ -1,0 +1,231 @@
+
+/* Class = "NSMenuItem"; title = "project Frankfurter"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "project Frankfurter";
+
+/* Class = "NSMenuItem"; title = "Quit project_Frankfurter"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Завершить project Frankfurter";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "5QF-Oa-p0T"; */
+"5QF-Oa-p0T.title" = "Правка";
+
+/* Class = "NSMenuItem"; title = "About project Frankfurter"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "О project Frankfurter";
+
+/* Class = "NSTextFieldCell"; placeholderString = "track..."; ObjectID = "6Wn-tO-jEw"; */
+"6Wn-tO-jEw.placeholderString" = "трек...";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "6dh-zS-Vam"; */
+"6dh-zS-Vam.title" = "Повторить";
+
+/* Class = "NSMenuItem"; title = "Cover"; ObjectID = "6xo-zi-U2H"; */
+"6xo-zi-U2H.title" = "Cover";
+
+/* Class = "NSMenuItem"; title = "Film"; ObjectID = "8e3-kd-ZrR"; */
+"8e3-kd-ZrR.title" = "Film";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Главное меню";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; */
+"BOF-NM-1cW.title" = "Настройки…";
+
+/* Class = "NSMenuItem"; title = "Save As…"; ObjectID = "Bw7-FT-i3A"; */
+"Bw7-FT-i3A.title" = "Сохранить как…";
+
+/* Class = "NSTextFieldCell"; title = "Usage type:"; ObjectID = "DKx-RO-fT3"; */
+"DKx-RO-fT3.title" = "Тип использования:";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "DVo-aG-piG"; */
+"DVo-aG-piG.title" = "Закрыть";
+
+/* Class = "NSMenuItem"; title = "Video-essay"; ObjectID = "EKO-It-eKn"; */
+"EKO-It-eKn.title" = "Video-essay";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
+"F2S-fz-NVQ.title" = "Справка";
+
+/* Class = "NSMenuItem"; title = "project Frankfurter Help"; ObjectID = "FKE-Sm-Kum"; */
+"FKE-Sm-Kum.title" = "справка project Frankfurter";
+
+/* Class = "NSViewController"; title = "Fair-use analyzer"; ObjectID = "Fnr-m4-6CC"; */
+"Fnr-m4-6CC.title" = "Анализ fair-use";
+
+/* Class = "NSTextFieldCell"; title = "Use License analyzer then."; ObjectID = "Fu9-Jm-xAw"; */
+"Fu9-Jm-xAw.title" = "В таком случае, воспользуйтесь Подбором лицензий.";
+
+/* Class = "NSMenuItem"; title = "Open…"; ObjectID = "IAo-SY-fd9"; */
+"IAo-SY-fd9.title" = "Открыть…";
+
+/* Class = "NSWindow"; title = "project Frankfurter"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "project Frankfurter";
+
+/* Class = "NSViewController"; title = "Risk reporter"; ObjectID = "Jpe-xM-bZx"; */
+"Jpe-xM-bZx.title" = "Risk reporter";
+
+/* Class = "NSMenuItem"; title = "Revert to Saved"; ObjectID = "KaW-ft-85H"; */
+"KaW-ft-85H.title" = "Revert to Saved";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "Показать все";
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "LE2-aR-0XJ"; */
+"LE2-aR-0XJ.title" = "Все окна — на передний план";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "NMo-om-nkz"; */
+"NMo-om-nkz.title" = "Службы";
+
+/* Class = "NSTextFieldCell"; title = "points."; ObjectID = "Np7-Z1-sFd"; */
+"Np7-Z1-sFd.title" = "";
+
+/* Class = "NSMenuItem"; title = "Video-essay"; ObjectID = "OYM-lr-6f9"; */
+"OYM-lr-6f9.title" = "Video-essay";
+
+/* Class = "NSTextFieldCell"; placeholderString = "artist..."; ObjectID = "Ode-EI-GoP"; */
+"Ode-EI-GoP.placeholderString" = "исполнитель...";
+
+/* Class = "NSTextFieldCell"; title = "Proportion of use (relative to the total duration):"; ObjectID = "Ogq-2o-A6p"; */
+"Ogq-2o-A6p.title" = "Доля использования (по отношению к общей продолжительности):";
+
+/* Class = "NSMenuItem"; title = "Hide project_Frankfurter"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Скрыть project Frankfurter";
+
+/* Class = "NSButtonCell"; title = "Apply"; ObjectID = "Pxh-Vz-gcl"; */
+"Pxh-Vz-gcl.title" = "Применить";
+
+/* Class = "NSTextFieldCell"; title = "Is the usage transformative?"; ObjectID = "Qm3-9E-Tfh"; */
+"Qm3-9E-Tfh.title" = "Использование трансформативно?";
+
+/* Class = "NSMenuItem"; title = "Cover"; ObjectID = "RUY-g9-B3K"; */
+"RUY-g9-B3K.title" = "Cover";
+
+/* Class = "NSTextFieldCell"; title = "Is the usage commercial?"; ObjectID = "RdN-0A-7dL"; */
+"RdN-0A-7dL.title" = "Использование коммерческое?";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "Ruw-6m-B2m"; */
+"Ruw-6m-B2m.title" = "Выбрать все";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "Td7-aD-5lo"; */
+"Td7-aD-5lo.title" = "Окно";
+
+/* Class = "NSMenuItem"; title = "Podcast"; ObjectID = "Uhg-Uo-hVj"; */
+"Uhg-Uo-hVj.title" = "Podcast";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "Скрыть остальные";
+
+/* Class = "NSMenuItem"; title = "Film"; ObjectID = "Vxz-Fc-mYr"; */
+"Vxz-Fc-mYr.title" = "Film";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "W48-6f-4Dl"; */
+"W48-6f-4Dl.title" = "Правка";
+
+/* Class = "NSTextFieldCell"; title = "Report on required licenses:"; ObjectID = "W92-zj-r0Y"; */
+"W92-zj-r0Y.title" = "Отчёт о необходимых лицензиях:";
+
+/* Class = "NSMenuItem"; title = "New"; ObjectID = "Was-JA-tGl"; */
+"Was-JA-tGl.title" = "Новое окно";
+
+/* Class = "NSMenuItem"; title = "Live performance"; ObjectID = "Wnj-Nb-l2R"; */
+"Wnj-Nb-l2R.title" = "Live performance";
+
+/* Class = "NSTextFieldCell"; title = "Usage type:"; ObjectID = "ZEq-cx-stl"; */
+"ZEq-cx-stl.title" = "Тип использования:";
+
+/* Class = "NSMenuItem"; title = "Print…"; ObjectID = "aTl-1u-JFS"; */
+"aTl-1u-JFS.title" = "Печать…";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "aUF-d1-5bR"; */
+"aUF-d1-5bR.title" = "Окно";
+
+/* Class = "NSViewController"; title = "Copyright explorer"; ObjectID = "bgb-Fh-c7G"; */
+"bgb-Fh-c7G.title" = "Поиск правообладателей";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "bib-Uj-vzu"; */
+"bib-Uj-vzu.title" = "Файл";
+
+/* Class = "NSTableColumn"; headerCell.title = "track"; ObjectID = "bxA-y6-pZl"; */
+"bxA-y6-pZl.headerCell.title" = "трек";
+
+/* Class = "NSTextFieldCell"; title = "%"; ObjectID = "c8A-28-QqT"; */
+"c8A-28-QqT.title" = "%";
+
+/* Class = "NSButtonCell"; title = "Apply"; ObjectID = "dId-Vf-m2K"; */
+"dId-Vf-m2K.title" = "Применить";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "dMs-cI-mzQ"; */
+"dMs-cI-mzQ.title" = "File";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "dRJ-4n-Yzg"; */
+"dRJ-4n-Yzg.title" = "Отменить";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "enN-Fx-era"; */
+"enN-Fx-era.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "Podcast"; ObjectID = "evq-mr-Ysb"; */
+"evq-mr-Ysb.title" = "Podcast";
+
+/* Class = "NSTextFieldCell"; title = "Fair-use score of your case (the greater — the better):"; ObjectID = "f3E-lR-nYa"; */
+"f3E-lR-nYa.title" = "Баллы fair-use текущего кейса (больше — лучше):";
+
+/* Class = "NSMenuItem"; title = "Reaction video"; ObjectID = "frB-SB-3FZ"; */
+"frB-SB-3FZ.title" = "Reaction video";
+
+/* Class = "NSViewController"; title = "License analyzer"; ObjectID = "gNT-BV-2UT"; */
+"gNT-BV-2UT.title" = "Подбор лицензий";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "gVA-U4-sdL"; */
+"gVA-U4-sdL.title" = "Вставить";
+
+/* Class = "NSTextFieldCell"; title = "100"; ObjectID = "gaq-p6-gyv"; */
+"gaq-p6-gyv.title" = "100";
+
+/* Class = "NSTextFieldCell"; title = "In case your score is lower than 60, you better think about acquiring the license."; ObjectID = "hdU-Ob-nuy"; */
+"hdU-Ob-nuy.title" = "In case your score is lower than 60, you better think about acquiring the license.";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "hz9-B4-Xy5"; */
+"hz9-B4-Xy5.title" = "Services";
+
+/* Class = "NSMenuItem"; title = "Live performance"; ObjectID = "j6g-wX-Qgm"; */
+"j6g-wX-Qgm.title" = "Live performance";
+
+/* Class = "NSTextFieldCell"; title = "In case your score is lower than 60, you better think about acquiring the license."; ObjectID = "lIS-ci-qvi"; */
+"lIS-ci-qvi.title" = "Если Ваш случай оценён на 60 баллов или ниже, стоит подумать о получении лицензии.";
+
+/* Class = "NSTableColumn"; headerCell.title = "info"; ObjectID = "nTb-XT-bGy"; */
+"nTb-XT-bGy.headerCell.title" = "информация";
+
+/* Class = "NSMenu"; title = "Open Recent"; ObjectID = "oas-Oc-fiZ"; */
+"oas-Oc-fiZ.title" = "Открыть недавние";
+
+/* Class = "NSTextFieldCell"; title = "Is the purpose of usage to make a parody?"; ObjectID = "or1-qD-juv"; */
+"or1-qD-juv.title" = "Цель использования — создание пародии?";
+
+/* Class = "NSMenuItem"; title = "Save…"; ObjectID = "pxx-59-PXV"; */
+"pxx-59-PXV.title" = "Сохранить…";
+
+/* Class = "NSMenuItem"; title = "Page Setup…"; ObjectID = "qIS-W8-SiK"; */
+"qIS-W8-SiK.title" = "Подготовка страницы…";
+
+/* Class = "NSMenuItem"; title = "Reaction video"; ObjectID = "sJf-Zh-kUx"; */
+"sJf-Zh-kUx.title" = "Reaction video";
+
+/* Class = "NSMenuItem"; title = "Open Recent"; ObjectID = "tXI-mr-wws"; */
+"tXI-mr-wws.title" = "Open Recent";
+
+/* Class = "NSMenu"; title = "project Frankfurter"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "project Frankfurter";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "uRl-iY-unG"; */
+"uRl-iY-unG.title" = "Вырезать";
+
+/* Class = "NSMenuItem"; title = "Clear Menu"; ObjectID = "vNY-rz-j42"; */
+"vNY-rz-j42.title" = "Clear Menu";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "wPS-sa-ehe"; */
+"wPS-sa-ehe.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "wpr-3q-Mcd"; */
+"wpr-3q-Mcd.title" = "Справка project Frankfurter";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "x3v-GG-iWU"; */
+"x3v-GG-iWU.title" = "Скопировать";
