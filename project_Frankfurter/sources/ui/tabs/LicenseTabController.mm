@@ -129,7 +129,7 @@ static NSString *const UsageTypeChangedNotification = @"UsageTypeChangedNotifica
             case AcquisitionMethod::AUTOMATIC:   return @"Automatic (DistroKid/HFA)";
             case AcquisitionMethod::COMPULSORY:  return @"Compulsory (mechanical, at fixed rate)";
             case AcquisitionMethod::NEGOTIATION: return @"Direct negotiation";
-            case AcquisitionMethod::PRO_ADMIN:   return @"Managed by PRO (ASCAP/BMI/РАО)";
+            case AcquisitionMethod::PRO_ADMIN:   return @"Managed by PRO (ASCAP, BMI, РАО)";
             default: return @"Unknown";
         }
     }
@@ -139,7 +139,7 @@ static NSString *const UsageTypeChangedNotification = @"UsageTypeChangedNotifica
             case AcquisitionMethod::AUTOMATIC:   return @"Автоматически (DistroKid/HFA)";
             case AcquisitionMethod::COMPULSORY:  return @"Compulsory (автоматически, по фиксированной ставке)";
             case AcquisitionMethod::NEGOTIATION: return @"Прямые переговоры";
-            case AcquisitionMethod::PRO_ADMIN:   return @"Обеспечивается площадкой через PRO (ASCAP/BMI/РАО)";
+            case AcquisitionMethod::PRO_ADMIN:   return @"Обеспечивается площадкой через PRO (ASCAP, BMI, РАО)";
             default: return @"Неизвестно";
         }
     }
